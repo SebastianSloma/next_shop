@@ -1,10 +1,16 @@
-import {Button} from '@nextui-org/button';
+import { Button } from '@nextui-org/button';
+
+
 
 export default function Home() {
-  return (
-    <div>
-    <Button>Click me</Button>
-  </div>
-);
-  
+	return (
+		<div>
+			<Button>Click me</Button>
+      
+		</div>
+
+
+
+
+	);
 }
