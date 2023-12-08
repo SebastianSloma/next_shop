@@ -12,10 +12,10 @@ const MainHeader = () => {
 				<Link className=' pb-2 sm:pb-0'>
 					<Image
 						width={90}
-						height={90}
+						height={90} 
 						alt='Logo'
 						src='logo.png'
-						className='max-sm:w-[40px]'
+						className='max-sm:hidden'
 					/>
 				</Link>
 				<div className='w-full sm:w-[300px] md:w-[70%] relative'>
@@ -31,12 +31,12 @@ const MainHeader = () => {
 				</div>
 
 				<div className='hidden lg:flex gap-4 text-gray-500 text-[30px]'>
-					<BiUser />
+					<BiUser className='hover:text-gray-200' />
 					<Badge content='3' color='danger' variant='faded'>
-						<FiHeart />
+						<FiHeart className='hover:text-gray-200'/>
 					</Badge>
 					<Badge content='5' color='danger'>
-						<HiOutlineShoppingBag />
+						<HiOutlineShoppingBag className='hover:text-gray-200'/>
 					</Badge>
 				</div>
 			</div>
