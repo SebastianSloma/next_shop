@@ -9,16 +9,12 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
+    "Home",
+    "Products",
+    "Hot Offers",
+    "Testimonials",
+    "Contact",
+    
   ];
 
   return (
@@ -41,27 +37,27 @@ export default function App() {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
        
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="#" underline="hover">
             Home
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
+        <NavbarItem >
+          <Link color='foreground' href="#" underline="hover">
             Products
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="#" underline="hover">
             Hot Offers
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="#" underline="hover">
             Testimonials
           </Link>
         </NavbarItem>
         <NavbarItem> 
-          <Link color="foreground" href="#" >
+          <Link color="foreground" href="#" underline="hover">
             Contact
           </Link>
         </NavbarItem>
@@ -69,10 +65,10 @@ export default function App() {
 
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
+          <Link href="#" color="foreground">Login</Link>
         </NavbarItem>
         <NavbarItem>
-          <Button as={Link} color="warning" href="#" variant="flat">
+          <Button as={Link} color="default" href="#" variant="ghost">
             Sign Up
           </Button>
         </NavbarItem>
@@ -84,7 +80,7 @@ export default function App() {
             <Link
               className="w-full"
               color={
-                index === 2 ? "warning" : index === menuItems.length - 1 ? "danger" : "foreground"
+               "foreground"
               }
               href="#"
               size="lg"
