@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from 'react-icons/bs';
+import { BsFacebook, BsTwitterX, BsInstagram, BsLinkedin } from 'react-icons/bs';
 
 const HeaderTop = () => {
 	return (
@@ -11,7 +11,7 @@ const HeaderTop = () => {
 							<BsFacebook />
 						</div>
 						<div className='header_icon'>
-							<BsTwitter />
+							<BsTwitterX />
 						</div>
 						<div className='header_icon'>
 							<BsInstagram />
