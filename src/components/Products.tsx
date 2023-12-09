@@ -19,7 +19,7 @@ const productsData = [
 	{
 	  img: "/a3.png",
 	  title: "Regular",
-	  desc: "White Smart Watch",
+	  desc: "White Stone Smart Watch",
 	  rating: 3,
 	  price: "125.00",
 	},
@@ -47,14 +47,14 @@ const productsData = [
 	{
 	  img: "/a7.png",
 	  title: "Elegance",
-	  desc: "Men Lux Black",
+	  desc: "Men Lux Black Metal",
 	  rating: 5,
 	  price: "250.00",
 	},
 	{
 	  img: "/a8.png",
 	  title: "Normal",
-	  desc: "Orange Regular Smart Watch",
+	  desc: "Orange Smart Watch",
 	  rating: 4,
 	  price: "250.00",
 	},
@@ -75,7 +75,7 @@ const productsData = [
 	{
 	  img: "/a11.png",
 	  title: "Regular",
-	  desc: "Black Smart Watch",
+	  desc: "Black Gold Smart Watch ",
 	  rating: 3,
 	  price: "120.00",
 	},
