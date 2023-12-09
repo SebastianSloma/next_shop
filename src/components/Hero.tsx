@@ -22,13 +22,13 @@ export default function App() {
 					if (mouseOver) return;
 					timeout = setTimeout(() => {
 						slider.next();
-					}, 2000);
+					}, 3000);
 				}
 				slider.on('created', () => {
-					slider.container.addEventListener('mouseover', () => {
-						mouseOver = true;
-						clearNextTimeout();
-					});
+					// slider.container.addEventListener('mouseover', () => {
+					// 	mouseOver = true;
+					// 	clearNextTimeout();
+					// });
 					slider.container.addEventListener('mouseout', () => {
 						mouseOver = false;
 						nextTimeout();
@@ -43,21 +43,21 @@ export default function App() {
 	);
 
 	return (
-		<>
+		<div className=''>
 			<div ref={sliderRef} className='keen-slider'>
-				<div className='keen-slider__slide'>
-					<Image width={300} alt='NextUI hero Image' src='/a18.png' />
+				<div className='keen-slider__slide '>
+					<Image width={500} alt='NextUI hero Image' src='/a18.png'/>
+				</div>
+				<div className='keen-slider__slide place-items-center'>
+					<Image width={500} alt='NextUI hero Image' src='/a17.png' />
 				</div>
 				<div className='keen-slider__slide'>
-					<Image width={300} alt='NextUI hero Image' src='/a17.png' />
+					<Image width={500} alt='NextUI hero Image' src='/a16.png' />
 				</div>
 				<div className='keen-slider__slide'>
-					<Image width={300} alt='NextUI hero Image' src='/a16.png' />
-				</div>
-				<div className='keen-slider__slide'>
-					<Image width={300} alt='NextUI hero Image' src='/a15.png' />
+					<Image width={500} alt='NextUI hero Image' src='/a15.png' />
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
