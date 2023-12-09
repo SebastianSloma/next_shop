@@ -5,6 +5,7 @@ import { Image } from '@nextui-org/react';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 
+
 export default function App() {
 	const [sliderRef] = useKeenSlider<HTMLDivElement>(
 		{
@@ -45,16 +46,16 @@ export default function App() {
 	return (
 		<div className=''>
 			<div ref={sliderRef} className='keen-slider'>
-				<div className='keen-slider__slide '>
-					<Image width={500} alt='NextUI hero Image' src='/a18.png'/>
+				<div className='keen-slider__slide flex justify-center items-center '>
+					<Image width={500} alt='NextUI hero Image' src='/a18.png' />
 				</div>
-				<div className='keen-slider__slide place-items-center'>
+				<div className='keen-slider__slide flex justify-center items-center'>
 					<Image width={500} alt='NextUI hero Image' src='/a17.png' />
 				</div>
-				<div className='keen-slider__slide'>
+				<div className='keen-slider__slide flex justify-center items-center'>
 					<Image width={500} alt='NextUI hero Image' src='/a16.png' />
 				</div>
-				<div className='keen-slider__slide'>
+				<div className='keen-slider__slide flex justify-center items-center'>
 					<Image width={500} alt='NextUI hero Image' src='/a15.png' />
 				</div>
 			</div>
