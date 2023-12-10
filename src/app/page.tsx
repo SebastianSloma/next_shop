@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import NewOffer from '@/components/NewOffer';
 import Products from '@/components/Products';
@@ -12,6 +13,7 @@ export default function Home() {
 			<Products/>
 			<Testimonials/>
 			<NewOffer/>
+			<Footer/>
 		</main>
 
 
