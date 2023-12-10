@@ -9,7 +9,7 @@ import {
 	CardFooter,
 	Avatar,
 	Button,
-    Divider,
+	Divider,
 } from '@nextui-org/react';
 
 interface propsType {
@@ -17,19 +17,19 @@ interface propsType {
 	named: string;
 	nick: string;
 	opinion: string;
-    rating: number
+	rating: number;
 	following: string;
 	followers: string;
 }
 const TestimonialCard: React.FC<propsType> = ({
-pic,
-named,
-nick,
-opinion,
-rating,
-following,
-followers,
-}) =>{
+	pic,
+	named,
+	nick,
+	opinion,
+	rating,
+	following,
+	followers,
+}) => {
 	const generateRating = (rating: number) => {
 		switch (rating) {
 			case 1:
@@ -87,9 +87,10 @@ followers,
 				return null;
 		}
 	};
-const [isFollowed, setIsFollowed] = React.useState(false);
-    return (
-		<div className='container pt-16'>
+	const [isFollowed, setIsFollowed] = React.useState(false);
+	return (
+		<div className='snap-x'>
+			<div className='snap-center'>
 			<Card className='max-w-[340px]'>
 				<CardHeader className='justify-between'>
 					<div className='flex gap-5'>
@@ -137,8 +138,9 @@ const [isFollowed, setIsFollowed] = React.useState(false);
 					</div>
 				</CardFooter>
 			</Card>
+			</div>
 		</div>
 	);
-                    }
+};
 
 export default TestimonialCard;

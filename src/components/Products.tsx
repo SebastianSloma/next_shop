@@ -92,7 +92,7 @@ const Products = () => {
 	return (
 		<div>
 			<div className='container pt-16'>
-				<h2 className='mb-5 font-medium text-8xl pb-4'>
+				<h2 className='mb-8 font-medium text-8xl pb-4'>
 				
 					<span className='class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-500"'>
 						Products

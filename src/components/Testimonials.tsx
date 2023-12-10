@@ -34,15 +34,7 @@ const testimonialData = [
 		followers: '50k',
 	},
 
-	{
-		pic: 'https://i.pravatar.cc/150?u=a04258114e29026702d',
-		named: 'Kam Ling',
-		nick: '@kamling',
-		opinion: 'Best watch ever',
-        rating: 5,
-		following: '1k',
-		followers: '9k',
-	},
+	
 
 	{
 		pic: 'https://i.pravatar.cc/150?u=a04258114e29026302d',
@@ -96,7 +88,7 @@ const Testimonials = () => {
 	return (
 		
 			<div className='container pt-16'>
-				<h2 className='mb-5 font-medium text-8xl'>
+				<h2 className='mb-10 font-medium text-8xl'>
 					Customer
 					<br />
 					<span className='class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-500"'>
@@ -105,7 +97,10 @@ const Testimonials = () => {
 				</h2>
 
 				<div className='grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-col-3 xl:grid-cols-4 gap-10 xl:gap-x-20 xl:gap-y-10'>
+
+
 					{testimonialData.map((item, index) => (
+						
 						<TestimonialCard
 							key={index}
 							pic={item.pic}
