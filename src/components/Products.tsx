@@ -92,7 +92,7 @@ const Products = () => {
   return (
     <div>
       <div className="container pt-16">
-        <h2 className="mb-5 font-medium text-8xl pb-4">New <span className='class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"'>Products</span></h2>
+        <h2 className="mb-5 font-medium text-8xl pb-4">Best <span className='class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-500"'>Products</span></h2>
 
         <div className="grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-col-3 xl:grid-cols-4 gap-10 xl:gap-x-20 xl:gap-y-10">
           {productsData.map((item, index) => (

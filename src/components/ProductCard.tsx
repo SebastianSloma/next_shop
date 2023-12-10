@@ -1,13 +1,5 @@
-import {
-	Card,
-	CardBody,
-	CardFooter,
-	CardHeader,
-	Divider,
-	Image,
-	Link,
-} from '@nextui-org/react';
-import { list } from 'postcss';
+import { Card, CardBody, CardFooter, Divider, Image } from '@nextui-org/react';
+
 import React from 'react';
 
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
@@ -103,10 +95,7 @@ const ProductCard: React.FC<propsType> = ({
 
 				<Divider />
 				<CardBody className='justify-center'>
-                    <div>
-
-					{generateRating(rating)}
-                    </div>
+					<div>{generateRating(rating)}</div>
 				</CardBody>
 				<Divider />
 				<CardFooter className='text-small justify-center'>
@@ -120,32 +109,7 @@ const ProductCard: React.FC<propsType> = ({
 			</Card>
 		</div>
 
-		//     <div className="px-4 border border-gray-200 rounded-xl max-w-[400px] ">
-		//       <div>
-		//         <Image
-		//           className="w-full h-[250px]"
-		//           src={img}
-
-		//           width={200}
-		//           height={300}
-		//           alt={title}
-		//         />
-		//       </div>
-
-		//       <div className="space-y-2 py-2">
-		//         <h2 className="text-accent font-medium uppercase">{title}</h2>
-		//         <p className="text-gray-500 max-w-[150px]">{desc}</p>
-		//         <div>{generateRating(rating)}</div>
-
-		//         <div className="font-bold flex gap-4">
-		//           ${price}
-		//           <del className="text-gray-500 font-normal">
-		//             ${parseInt(price) + 50}.00
-		//           </del>
-		//         </div>
-		//       </div>
-		//     </div>
-		//   );
+	
 	);
 };
 
