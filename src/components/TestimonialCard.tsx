@@ -89,11 +89,11 @@ followers,
 	};
 const [isFollowed, setIsFollowed] = React.useState(false);
     return (
-		<div className='container pt-16 pb-6'>
+		<div className='container pt-16'>
 			<Card className='max-w-[340px]'>
 				<CardHeader className='justify-between'>
 					<div className='flex gap-5'>
-						<Avatar isBordered radius='full' size='md' src={pic} />
+						<Avatar isBordered color="warning" radius="sm" size='md' src={pic} />
 						<div className='flex flex-col gap-1 items-start justify-center'>
 							<h4 className='text-small font-semibold leading-none text-default-600'>
 								{named}
@@ -119,7 +119,7 @@ const [isFollowed, setIsFollowed] = React.useState(false);
 				</CardHeader>
 				<CardBody className='px-3 py-0 text-small text-default-400'>
                 <Divider />
-				<CardBody className='justify-center'>
+				<CardBody className='justify-start'>
 					<div>{generateRating(rating)}</div>
 				</CardBody>
 					<p>

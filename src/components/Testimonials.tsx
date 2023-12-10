@@ -1,15 +1,17 @@
 import React from 'react';
 import TestimonialCard from './TestimonialCard';
 
+
+
 const testimonialData = [
 	{
 		pic: 'https://i.pravatar.cc/150?u=a042581f4e29026024d',
-		named: 'Zoey Lang',
-		nick: '@zoeylang',
-		opinion: 'Best watch ever',
-        rating: 5,
-		following: '245',
-		followers: '50k',
+		named: 'Adam Wathan',
+		nick: '@adamwathan',
+		opinion: 'Nice quality product. I recommend',
+        rating: 4,
+		following: '40k',
+		followers: '600k',
 	},
 
 	{
@@ -34,12 +36,12 @@ const testimonialData = [
 
 	{
 		pic: 'https://i.pravatar.cc/150?u=a04258114e29026702d',
-		named: 'Zoey Lang',
-		nick: '@zoeylang',
+		named: 'Kam Ling',
+		nick: '@kamling',
 		opinion: 'Best watch ever',
         rating: 5,
-		following: '245',
-		followers: '50k',
+		following: '1k',
+		followers: '9k',
 	},
 
 	{
@@ -94,7 +96,7 @@ const Testimonials = () => {
 	return (
 		
 			<div className='container pt-16'>
-				<h2 className='mb-5 font-medium text-8xl pb-4'>
+				<h2 className='mb-5 font-medium text-8xl'>
 					Customer
 					<br />
 					<span className='class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-500"'>
