@@ -7,51 +7,84 @@ const testimonialData = [
 		named: 'Zoey Lang',
 		nick: '@zoeylang',
 		opinion: 'Best watch ever',
+        rating: 5,
 		following: '245',
 		followers: '50k',
 	},
 
 	{
-		pic: 'https://i.pravatar.cc/150?u=a042581f4e29026024d',
+		pic: 'https://i.pravatar.cc/150?u=a04258a2462d826712d',
 		named: 'Zoey Lang',
 		nick: '@zoeylang',
 		opinion: 'Best watch ever',
+        rating: 5,
 		following: '245',
 		followers: '50k',
 	},
 
 	{
-		pic: 'https://i.pravatar.cc/150?u=a042581f4e29026024d',
+		pic: 'https://i.pravatar.cc/150?u=a042581f4e29026704d',
 		named: 'Zoey Lang',
 		nick: '@zoeylang',
 		opinion: 'Best watch ever',
+        rating: 5,
 		following: '245',
 		followers: '50k',
 	},
 
 	{
-		pic: 'https://i.pravatar.cc/150?u=a042581f4e29026024d',
+		pic: 'https://i.pravatar.cc/150?u=a04258114e29026702d',
 		named: 'Zoey Lang',
 		nick: '@zoeylang',
 		opinion: 'Best watch ever',
+        rating: 5,
 		following: '245',
 		followers: '50k',
 	},
 
 	{
-		pic: 'https://i.pravatar.cc/150?u=a042581f4e29026024d',
+		pic: 'https://i.pravatar.cc/150?u=a04258114e29026302d',
 		named: 'Zoey Lang',
 		nick: '@zoeylang',
 		opinion: 'Best watch ever',
+        rating: 5,
 		following: '245',
 		followers: '50k',
 	},
 
 	{
-		pic: 'https://i.pravatar.cc/150?u=a042581f4e29026024d',
+		pic: 'https://i.pravatar.cc/150?u=a04258114e29026708c',
 		named: 'Zoey Lang',
 		nick: '@zoeylang',
 		opinion: 'Best watch ever',
+        rating: 5,
+		following: '245',
+		followers: '50k',
+	},
+	{
+		pic: 'https://i.pravatar.cc/300?u=a042581f4f29026707d',
+		named: 'Zoey Lang',
+		nick: '@zoeylang',
+		opinion: 'Best watch ever',
+        rating: 5,
+		following: '245',
+		followers: '50k',
+	},
+	{
+		pic: 'https://i.pravatar.cc/300?u=a042581f4e29026710d',
+		named: 'Zoey Lang',
+		nick: '@zoeylang',
+		opinion: 'Best watch ever',
+        rating: 5,
+		following: '245',
+		followers: '50k',
+	},
+	{
+		pic: 'https://i.pravatar.cc/300?u=a042581f4e29026712d',
+		named: 'Zoey Lang',
+		nick: '@zoeylang',
+		opinion: 'Best watch ever',
+        rating: 5,
 		following: '245',
 		followers: '50k',
 	},
@@ -59,7 +92,7 @@ const testimonialData = [
 
 const Testimonials = () => {
 	return (
-		<div>
+		
 			<div className='container pt-16'>
 				<h2 className='mb-5 font-medium text-8xl pb-4'>
 					Customer
@@ -77,13 +110,14 @@ const Testimonials = () => {
 							named={item.named}
 							nick={item.nick}
 							opinion={item.opinion}
+                            rating={item.rating}
 							following={item.following}
 							followers={item.followers}
 						/>
 					))}
 				</div>
 			</div>
-		</div>
+		
 	);
 };
 

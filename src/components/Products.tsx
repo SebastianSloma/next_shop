@@ -101,7 +101,7 @@ const Products = () => {
               img={item.img}
               title={item.title}
               desc={item.desc}
-              rating={item.rating}
+             
               price={item.price}
             />
           ))}
