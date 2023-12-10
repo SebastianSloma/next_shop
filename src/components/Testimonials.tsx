@@ -91,7 +91,7 @@ const Testimonials = () => {
 				<h2 className='mb-10 font-medium text-8xl'>
 					Customer
 					<br />
-					<span className='class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-500"'>
+					<span className='class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>
 						Recommendations
 					</span>
 				</h2>
