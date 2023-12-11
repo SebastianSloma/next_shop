@@ -53,22 +53,22 @@ export default function App() {
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link color='foreground' underline='focus'>
+					<Link color='foreground' href='#products' underline='focus'>
 						Products
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link color='foreground' href='#' underline='focus'>
+					<Link color='foreground' href='#newoffer' underline='focus'>
 						New Offers
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link color='foreground' href='#' underline='focus'>
+					<Link color='foreground' href='#testimonials' underline='focus'>
 						Testimonials
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link color='foreground' href='#' underline='focus'>
+					<Link color='foreground' href='#contact' underline='focus'>
 						Contact
 					</Link>
 				</NavbarItem>

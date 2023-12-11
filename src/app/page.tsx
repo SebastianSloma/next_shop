@@ -4,15 +4,18 @@ import Hero from '@/components/Hero';
 import NewOffer from '@/components/NewOffer';
 import Products from '@/components/Products';
 import Testimonials from '@/components/Testimonials';
+import './globals.css';
 
 export default function Home() {
+
+	
 	return (
-		<main>
+		<main >
 			<Hero />
 			<Products />
-			<Testimonials />
 			<NewOffer />
-			<Contact/>
+			<Testimonials />
+			<Contact />
 			<Footer />
 		</main>
 	);

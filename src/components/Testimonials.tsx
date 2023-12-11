@@ -87,7 +87,7 @@ const testimonialData = [
 const Testimonials = () => {
 	return (
 		
-			<div className='container pt-16'>
+			<div id='testimonials' className='container pt-16'>
 				<h2 className='mb-10 font-medium text-8xl max-sm:text-5xl'>
 					Customer
 					<br />
