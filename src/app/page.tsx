@@ -1,3 +1,4 @@
+import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import NewOffer from '@/components/NewOffer';
@@ -11,6 +12,7 @@ export default function Home() {
 			<Products />
 			<Testimonials />
 			<NewOffer />
+			<Contact/>
 			<Footer />
 		</main>
 	);
