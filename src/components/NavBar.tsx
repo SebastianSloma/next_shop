@@ -17,6 +17,7 @@ import {
 import { ThemeSwitcher } from './ThemeSwitcher';
 
 
+
 export default function App() {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
@@ -82,6 +83,7 @@ export default function App() {
 				</NavbarItem>
 				<NavbarItem className='hidden lg:flex'>
 					<ThemeSwitcher/>
+	
 					<Button as={Link} color='warning' href='#' variant='faded'>
 						Log in
 					</Button>
