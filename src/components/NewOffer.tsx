@@ -5,12 +5,7 @@ import { Card, CardFooter, Image, CardBody, Divider } from '@nextui-org/react';
 const NewOffer = () => {
 	return (
 		<div className='container pt-16 mb-5'>
-			<h2 className='mb-8 font-medium text-8xl pb-4'>
-				New
-				<span className='class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>
-					Offers
-				</span>
-			</h2>
+			<h2 className='mb-8 font-medium text-8xl max-sm:text-4xl pb-4'>New <span className='class="font-extrabold text-transparent text-8xl max-sm:text-6xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>Offers</span></h2>
 			<div className='grid grid-cols-1 place-items-center max-sm:place-items-center sm:grid-cols-2 gap-10 '>
 				<div className='px-4  max-w-[400px]  '>
 					<Card shadow='sm' isPressable={true}>
