@@ -30,34 +30,39 @@ export default function App() {
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
         <Image src='/logo.png' alt='logo'width={20} height={20}/>
-          <p className="font-bold text-inherit">Shop</p>
+        <p className='text-lg text-gray-200'>
+					Watch 
+					<span className='class="font-extrabold text-transparent text-lg bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>
+						Shop
+					</span>
+				</p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
        
         <NavbarItem>
-          <Link color="foreground" href="#" underline="hover">
+          <Link color="foreground" href="#" underline="focus">
             Home
           </Link>
         </NavbarItem>
         <NavbarItem >
-          <Link color='foreground' href="#" underline="hover">
+          <Link color='foreground' href="#" underline="focus">
             Products
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#" underline="hover">
-            Hot Offers
+          <Link color="foreground" href="#" underline="focus">
+            New Offers
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#" underline="hover">
+          <Link color="foreground" href="#" underline="focus">
             Testimonials
           </Link>
         </NavbarItem>
         <NavbarItem> 
-          <Link color="foreground" href="#" underline="hover">
+          <Link color="foreground" href="#" underline="focus">
             Contact
           </Link>
         </NavbarItem>
