@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
+import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Link, Button, Input} from "@nextui-org/react";
 import { Image } from '@nextui-org/react';
 
 
@@ -70,10 +70,12 @@ export default function App() {
 
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
-          <Link href="#" color="foreground">Login</Link>
+        <Button as={Link} color="warning" href="#" variant="faded">
+            Log in
+          </Button>
         </NavbarItem>
-        <NavbarItem>
-          <Button as={Link} color="default" href="#" variant="ghost">
+        <NavbarItem className='hidden lg:flex'>
+          <Button as={Link} color="warning" href="#" variant="ghost">
             Sign Up
           </Button>
         </NavbarItem>
@@ -92,8 +94,35 @@ export default function App() {
             >
               {item}
             </Link>
+            
           </NavbarMenuItem>
         ))}
+        <NavbarItem>
+        <Input
+          classNames={{
+            base: "max-w-full sm:max-w-[10rem] h-10",
+            mainWrapper: "h-full",
+            input: "text-small",
+            inputWrapper: "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20",
+          }}
+          placeholder="Type to search..."
+          size="sm"
+       
+          type="search"
+        />
+        </NavbarItem>
+       
+
+       
+        <NavbarItem className='sm:flex'>
+        <Button as={Link} color="warning" href="#" variant="faded" className='mr-5'>
+            Log in
+          </Button>
+          <Button as={Link} color="warning" href="#" variant="ghost">
+            Sign Up
+          </Button>
+        </NavbarItem>
+      
       </NavbarMenu>
     </Navbar>
   );

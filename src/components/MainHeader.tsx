@@ -28,7 +28,7 @@ const MainHeader = () => {
 					<div className='flex w-full flex-wrap md:flex-nowrap gap-4 max-sm:hidden'>
 						<Input
 							type='search'
-							label='Search'
+							label='Type to search...'
 							size='md'
 							variant='bordered'
 						/>
