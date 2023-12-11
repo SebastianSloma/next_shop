@@ -14,6 +14,8 @@ import {
 	Input,
 	Image,
 } from '@nextui-org/react';
+import { ThemeSwitcher } from './ThemeSwitcher';
+
 
 export default function App() {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -75,7 +77,11 @@ export default function App() {
 			</NavbarContent>
 
 			<NavbarContent justify='end'>
+				<NavbarItem>
+
+				</NavbarItem>
 				<NavbarItem className='hidden lg:flex'>
+					<ThemeSwitcher/>
 					<Button as={Link} color='warning' href='#' variant='faded'>
 						Log in
 					</Button>
