@@ -90,7 +90,7 @@ const productsData = [
 
 const Products = () => {
 	return (
-		<div>
+		<div >
 			<div className='container pt-16'>
 				<h2 className='mb-8 font-medium text-8xl pb-4'>
 				

@@ -1,8 +1,8 @@
 "use client"
 
 import React from "react";
-import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Link, Button, Input} from "@nextui-org/react";
-import { Image } from '@nextui-org/react';
+import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Link, Button, Input, Image} from "@nextui-org/react";
+
 
 
 export default function App() {

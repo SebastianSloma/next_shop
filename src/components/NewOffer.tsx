@@ -11,7 +11,7 @@ const NewOffer = () => {
 					Offers
 				</span>
 			</h2>
-			<div className='grid grid-cols-1 place-items-center max-sm:place-items-start sm:grid-cols-2 gap-10 '>
+			<div className='grid grid-cols-1 place-items-center max-sm:place-items-center sm:grid-cols-2 gap-10 '>
 				<div className='px-4  max-w-[400px]  '>
 					<Card shadow='sm' isPressable={true}>
 						<CardBody className='overflow-visible p-0'>
