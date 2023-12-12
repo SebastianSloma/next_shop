@@ -19,12 +19,18 @@ import { ThemeSwitcher } from './ThemeSwitcher';
 export default function App() {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-	const menuItems = [
-		'Home',
-		'Products',
-		'Hot Offers',
-		'Testimonials',
-		'Contact',
+	interface MenuItem {
+		label: string;
+		href: string;
+	  }
+	  
+	const menuItems: MenuItem[] = [
+		{label: 'Home', href:'/'},
+		{label: 'Products', href:'#products'},
+		{label: 'New Offers', href:'#newoffer'},
+		{label: 'Testimonials', href:'#testimonials'},
+		{label: 'Contact', href:'#contact'},
+	
 	];
 
 	return (
@@ -76,7 +82,7 @@ export default function App() {
 			</NavbarContent>
 
 			<NavbarContent justify='end'>
-				<NavbarItem></NavbarItem>
+			
 				<NavbarItem className='hidden lg:flex'>
 					<ThemeSwitcher />
 
@@ -94,8 +100,8 @@ export default function App() {
 			<NavbarMenu>
 				{menuItems.map((item, index) => (
 					<NavbarMenuItem key={`${item}-${index}`}>
-						<Link className='w-full' color={'foreground'} href='#' size='lg'>
-							{item}
+						<Link className='w-full' color={'foreground'} href={item.href} size='lg'>
+							{item.label}
 						</Link>
 					</NavbarMenuItem>
 				))}

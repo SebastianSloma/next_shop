@@ -23,7 +23,7 @@ export function ThemeSwitcher() {
 		isDark ? setTheme('light') : setTheme('dark');
 	};
 	return (
-		<div className='flex'>
+		<div className='flex mr-2'>
 			<Switch
 				onChange={toggleDarkTheme}
 				defaultSelected
