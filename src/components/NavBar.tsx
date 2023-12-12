@@ -16,8 +16,6 @@ import {
 } from '@nextui-org/react';
 import { ThemeSwitcher } from './ThemeSwitcher';
 
-
-
 export default function App() {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
@@ -37,10 +35,10 @@ export default function App() {
 				/>
 			</NavbarContent>
 
-			<NavbarContent className='sm:hidden pr-3' justify='center'>
+			<NavbarContent className='sm:hidden pr-3 ' justify='center'>
 				<NavbarBrand>
 					<Image src='/logo.png' alt='logo' width={20} height={20} />
-					<p className='text-lg text-gray-200'>
+					<p className='text-lg  '  >
 						Watch
 						<span className='class="font-extrabold text-transparent text-lg bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>
 							Shop
@@ -61,7 +59,7 @@ export default function App() {
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link color='foreground'  href='#newoffer' underline='focus'>
+					<Link color='foreground' href='#newoffer' underline='focus'>
 						New Offers
 					</Link>
 				</NavbarItem>
@@ -78,12 +76,10 @@ export default function App() {
 			</NavbarContent>
 
 			<NavbarContent justify='end'>
-				<NavbarItem>
-
-				</NavbarItem>
+				<NavbarItem></NavbarItem>
 				<NavbarItem className='hidden lg:flex'>
-					<ThemeSwitcher/>
-	
+					<ThemeSwitcher />
+
 					<Button as={Link} color='warning' href='#' variant='faded'>
 						Log in
 					</Button>
@@ -130,6 +126,9 @@ export default function App() {
 					<Button as={Link} color='warning' href='#' variant='ghost'>
 						Sign Up
 					</Button>
+				</NavbarItem>
+				<NavbarItem className='sm:flex mt-5'>
+					<ThemeSwitcher />
 				</NavbarItem>
 			</NavbarMenu>
 		</Navbar>

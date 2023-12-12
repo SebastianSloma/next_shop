@@ -1,9 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer components {
-	.header_icon {
-		@apply bg-gray-600 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-gray-200 hover:text-gray-500;
-	}
-}

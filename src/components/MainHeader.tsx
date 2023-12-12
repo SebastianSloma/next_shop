@@ -9,7 +9,7 @@ const MainHeader = () => {
 	return (
 		<div className='border-b border-gray-200 py-6 max-sm:hidden'>
 			<div className='container sm:flex justify-between items-center '>
-				<Link className=' pb-2 sm:pb-0'>
+				<Link className=' pb-2 sm:pb-0' color='foreground'>
 					<Image
 						width={90}
 						height={90}
@@ -17,12 +17,12 @@ const MainHeader = () => {
 						src='logo.png'
 						className='max-sm:hidden'
 					/>
-				<p className='text-2xl text-gray-200'>
-					Watch <br />
-					<span className='class="font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>
-						Shop
-					</span>
-				</p>
+					<p className='text-2xl'>
+						Watch <br />
+						<span className='class="font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>
+							Shop
+						</span>
+					</p>
 				</Link>
 				<div className='w-full sm:w-[300px] md:w-[70%] relative mx-10'>
 					<div className='flex w-full flex-wrap md:flex-nowrap gap-4 max-sm:hidden'>
