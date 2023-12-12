@@ -106,7 +106,7 @@ const Contact = () => {
 									color='warning'
 									isExternal
 									showAnchorIcon
-									href='https://github.com/nextui-org/nextui'>
+									href='https://github.com/SebastianSloma/next_shop'>
 									Visit source code on GitHub.
 								</Link>
 							</Code>
