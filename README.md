@@ -1,3 +1,8 @@
+## About Website
+
+Fully responsive shopping website using Next.js, Tailwind and NextUI library.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
