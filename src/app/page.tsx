@@ -7,10 +7,18 @@ import Testimonials from '@/components/Testimonials';
 import './globals.css';
 
 export default function Home() {
+	// const bg = {
+	// 	backgroundImage: `url(${backgroundImage})`,
+	// 	backgroundPosition: 'center',
+	// 	backgroundSize: 'cover',
+	// 	backgroundRepeat: 'no-repeat',
+	// 	width: '100vw',
+	// 	height: '100vh',
+	// 	z-index: 10,
+	// };
 
-	
 	return (
-		<main >
+		<main>
 			<Hero />
 			<Products />
 			<NewOffer />

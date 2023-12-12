@@ -6,6 +6,7 @@ import HeaderTop from '@/components/HeaderTop';
 import MainHeader from '@/components/MainHeader';
 import NavBar from '@/components/NavBar';
 
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -20,12 +21,12 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en' className='dark'>
-			<body className={inter.className} >
+			<body className={inter.className}>
 				<Providers >
 					<HeaderTop />
-					<MainHeader/>
-					<NavBar/>
-					{children }
+					<MainHeader />
+					<NavBar />
+					{children}
 				</Providers>
 			</body>
 		</html>

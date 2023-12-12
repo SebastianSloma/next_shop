@@ -1,5 +1,11 @@
+import { Button, Link } from '@nextui-org/react';
 import React from 'react';
-import { BsFacebook, BsTwitterX, BsInstagram, BsLinkedin } from 'react-icons/bs';
+import {
+	BsFacebook,
+	BsTwitterX,
+	BsInstagram,
+	BsLinkedin,
+} from 'react-icons/bs';
 
 const HeaderTop = () => {
 	return (
@@ -7,18 +13,35 @@ const HeaderTop = () => {
 			<div className='container py-4'>
 				<div className='flex justify-between items-center'>
 					<div className='hidden lg:flex gap-1'>
-						<div className='header_icon'>
+						<Button
+							isIconOnly
+							color='default'
+							variant='faded'
+							className='text-[20px]'
+							>
 							<BsFacebook />
-						</div>
-						<div className='header_icon'>
+						</Button>
+						<Button
+							isIconOnly
+							color='default'
+							variant='faded'
+							className='text-[20px]'>
 							<BsTwitterX />
-						</div>
-						<div className='header_icon'>
+						</Button>
+						<Button
+							isIconOnly
+							color='default'
+							variant='faded'
+							className='text-[20px]'>
 							<BsInstagram />
-						</div>
-						<div className='header_icon'>
+						</Button>
+						<Button
+							isIconOnly
+							color='default'
+							variant='faded'
+							className='text-[20px]'>
 							<BsLinkedin />
-						</div>
+						</Button>
 					</div>
 
 					<div className='text-gray-500 text-[12px]'>

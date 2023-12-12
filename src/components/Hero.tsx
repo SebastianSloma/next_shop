@@ -44,7 +44,7 @@ export default function App() {
 	);
 
 	return (
-		<div className=''>
+		<div className='bg-gradient-to-l hover:bg-gradient-to-r'>
 			<div ref={sliderRef} className='keen-slider'>
 				<div className='keen-slider__slide flex justify-center items-center '>
 					<Image width={500} alt='NextUI hero Image' src='/a18.png' />

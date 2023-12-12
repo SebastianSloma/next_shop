@@ -61,7 +61,7 @@ export default function App() {
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link color='foreground' href='#newoffer' underline='focus'>
+					<Link color='foreground'  href='#newoffer' underline='focus'>
 						New Offers
 					</Link>
 				</NavbarItem>

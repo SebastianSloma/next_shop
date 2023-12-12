@@ -14,6 +14,7 @@ const config: Config = {
         center: true,
         padding: "15px",
       },
+    
       // backgroundImage: {
       //   'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       //   'gradient-conic':
