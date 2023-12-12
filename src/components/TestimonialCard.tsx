@@ -89,9 +89,8 @@ const TestimonialCard: React.FC<propsType> = ({
 	};
 	const [isFollowed, setIsFollowed] = React.useState(false);
 	return (
-		<div className='snap-x'>
-			<div className='snap-center'>
-			<Card className='max-w-[340px]'>
+		
+			<Card className='w-[280px] h-[180px]'>
 				<CardHeader className='justify-between'>
 					<div className='flex gap-5'>
 						<Avatar isBordered color="warning" radius="sm" size='md' src={pic} />
@@ -138,8 +137,7 @@ const TestimonialCard: React.FC<propsType> = ({
 					</div>
 				</CardFooter>
 			</Card>
-			</div>
-		</div>
+			
 	);
 };
 

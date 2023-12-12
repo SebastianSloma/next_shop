@@ -120,7 +120,7 @@ export default function App() {
 					/>
 				</NavbarItem>
 
-				<NavbarItem className='sm:flex'>
+				<NavbarItem className='sm:flex mt-3'>
 					<Button
 						as={Link}
 						color='warning'

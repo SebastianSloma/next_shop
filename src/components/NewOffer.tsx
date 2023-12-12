@@ -17,8 +17,8 @@ const NewOffer = () => {
 								src='/a13.png'
 							/>
 							<div className='flex flex-col mb-2 pt-1'>
-								<p className='text-md'>Descriptions</p>
-								<p className='text-small text-default-500'>Water Proof</p>
+								<p className='text-md'>Smart Watch Viper Pro</p>
+								<p className='text-small text-default-500'>Water Proof Sport</p>
 							</div>
 						</CardBody>
 
@@ -40,8 +40,8 @@ const NewOffer = () => {
 								src='a14.png'
 							/>
 							<div className='flex flex-col mb-2 pt-1'>
-								<p className='text-md'>Description</p>
-								<p className='text-small text-default-500'>Water Proof</p>
+								<p className='text-md'>Smart Watch Venom Pro</p>
+								<p className='text-small text-default-500'>Water Proof Sport</p>
 							</div>
 						</CardBody>
 
