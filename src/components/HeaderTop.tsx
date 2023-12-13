@@ -1,5 +1,4 @@
-import { Button } from '@nextui-org/react';
-
+import { Button, Select, SelectItem } from '@nextui-org/react';
 
 import React from 'react';
 import {
@@ -9,23 +8,19 @@ import {
 	BsLinkedin,
 } from 'react-icons/bs';
 
-
-
-
-
-
 const HeaderTop = () => {
+
+
 	return (
 		<div className='border-b border-gray-200 hidden sm:block'>
 			<div className='container py-4'>
-				<div className='flex justify-between items-center'>
+				<div className='flex justify-between items-center'> 
 					<div className='hidden lg:flex gap-1'>
 						<Button
 							isIconOnly
 							color='default'
 							variant='faded'
-							className='text-[20px]'
-							>
+							className='text-[20px]'>
 							<BsFacebook />
 						</Button>
 						<Button
@@ -56,12 +51,9 @@ const HeaderTop = () => {
 					</div>
 
 					<div className='flex gap-4'>
+						{/* select */}
 
-
-
-
-
-
+						
 
 						{/* <select
 							className='text-gray-500 text-[12px] w-[70px]'
