@@ -87,7 +87,7 @@ const Contact = () => {
 									</p>
 								</div>
 								<Divider className='my-4' />
-								<div className='flex h-5 items-center space-x-4 text-small mb-3'>
+								<div className='flex h-5 justify-center space-x-4 text-small mb-3'>
 									<div>Regular</div>
 									<Divider orientation='vertical' />
 									<div>Normal</div>
