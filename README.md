@@ -1,7 +1,7 @@
 ## About Website
 
 Fully responsive shopping website using Next.js, Tailwind and NextUI library.
-[Live Demo](https://next-shop-blush.vercel.app/)
+🔗 [Live Demo](https://next-shop-blush.vercel.app/)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
