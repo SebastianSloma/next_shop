@@ -2,13 +2,10 @@ import { Card, CardBody, CardFooter, Divider, Image } from '@nextui-org/react';
 
 import React from 'react';
 
-
-
 interface propsType {
 	img: string;
 	title: string;
 	desc: string;
-
 	price: string;
 }
 
@@ -16,14 +13,11 @@ const ProductCard: React.FC<propsType> = ({
 	img,
 	title,
 	desc,
-	
 	price,
 }) => {
-
-
 	return (
-		<div className='px-4  max-w-[400px]  '>
-			<Card shadow='sm' isPressable={true}>
+		<div className='px-4  max-w-[400px]'>
+			<Card shadow='lg' isPressable={true}>
 				<CardBody className='overflow-visible p-0'>
 					<Image
 						width='100%'
@@ -37,7 +31,6 @@ const ProductCard: React.FC<propsType> = ({
 					</div>
 				</CardBody>
 
-				
 				<Divider />
 				<CardFooter className='text-small justify-center'>
 					<div className='font-bold flex gap-4'>
@@ -49,8 +42,6 @@ const ProductCard: React.FC<propsType> = ({
 				</CardFooter>
 			</Card>
 		</div>
-
-	
 	);
 };
 
