@@ -16,8 +16,8 @@ const ProductCard: React.FC<propsType> = ({
 	price,
 }) => {
 	return (
-		<div className='px-4  max-w-[400px]'>
-			<Card shadow='lg' isPressable={true}>
+		<div className='px-4  max-w-[400px] '>
+			<Card shadow='lg' isPressable={true} className='w-[230px] h-[360px]'>
 				<CardBody className='overflow-visible p-0'>
 					<Image
 						width='100%'
@@ -34,9 +34,9 @@ const ProductCard: React.FC<propsType> = ({
 				<Divider />
 				<CardFooter className='text-small justify-center'>
 					<div className='font-bold flex gap-4'>
-						<p>${price}</p>
+						<p>€{price}</p>
 						<del className='text-gray-500 font-normal'>
-							${parseInt(price) + 50}.00
+							€{parseInt(price) + 50}.00
 						</del>
 					</div>
 				</CardFooter>

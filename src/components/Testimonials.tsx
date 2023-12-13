@@ -88,7 +88,7 @@ const Testimonials = () => {
 	return (
 		
 			<div id='testimonials' className='container pt-16'>
-				<h2 className='mb-10 font-medium text-8xl max-sm:text-5xl'>
+				<h2 className='mb-10 font-medium text-8xl max-sm:text-5xl max-sm:text-center'>
 					Customer
 					<br />
 					<span className='class="font-extrabold text-transparent text-8xl max-sm:text-4xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>
@@ -96,7 +96,7 @@ const Testimonials = () => {
 					</span>
 				</h2>
 
-				<div className='grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-col-3 xl:grid-cols-4 gap-10 xl:gap-x-20 xl:gap-y-10'>
+				<div className='grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 xl:gap-x-20 xl:gap-y-10'>
 
 
 					{testimonialData.map((item, index) => (

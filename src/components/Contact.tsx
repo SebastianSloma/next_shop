@@ -20,7 +20,7 @@ import {
 const Contact = () => {
 	return (
 		<div id='contact' className='container pt-16'>
-			<h2 className='mb-8 font-medium text-8xl max-sm:text-6xl pb-4'>
+			<h2 className='mb-8 font-medium text-8xl max-sm:text-6xl pb-4 max-sm:text-center'>
 				Cont
 				<span className='class="font-extrabold text-transparent text-8xl max-sm:text-6xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>
 					act

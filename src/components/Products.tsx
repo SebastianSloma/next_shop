@@ -92,14 +92,14 @@ const Products = () => {
 	return (
 		<div id='products' >
 			<div className='container pt-16'>
-				<h2 className='mb-8 font-medium text-8xl pb-4'>
+				<h2 className='mb-8 font-medium text-8xl pb-4 max-sm:text-center'>
 				
 					<span className='class="font-extrabold text-transparent text-8xl max-sm:text-6xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>
 						Products
 					</span>
 				</h2>
 
-				<div className='grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-col-3 xl:grid-cols-4 gap-10 xl:gap-x-20 xl:gap-y-10'>
+				<div className='grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:gap-5 gap-10 xl:gap-x-20 xl:gap-y-10'>
 					{productsData.map((item, index) => (
 						<ProductCard
 							key={index}
