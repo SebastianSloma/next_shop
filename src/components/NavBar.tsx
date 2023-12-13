@@ -55,27 +55,27 @@ export default function App() {
 
 			<NavbarContent className='hidden sm:flex gap-4' justify='center'>
 				<NavbarItem>
-					<Link color='foreground' href='#' underline='focus'>
+					<Link color='foreground' href='#' className='font-semibold'>
 						Home
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link color='foreground' href='#products' underline='focus'>
+					<Link color='foreground' href='#products' className='font-semibold'>
 						Products
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link color='foreground' href='#newoffer' underline='focus'>
+					<Link color='foreground' href='#newoffer' className='font-semibold'>
 						New Offers
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link color='foreground' href='#testimonials' underline='focus'>
+					<Link color='foreground' href='#testimonials' className='font-semibold'>
 						Testimonials
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link color='foreground' href='#contact' underline='focus'>
+					<Link color='foreground' href='#contact' className='font-semibold'>
 						Contact
 					</Link>
 				</NavbarItem>
@@ -86,12 +86,12 @@ export default function App() {
 				<NavbarItem className='hidden lg:flex'>
 					<ThemeSwitcher />
 
-					<Button as={Link} color='warning' href='#' variant='faded'>
+					<Button as={Link} color='warning' href='#' variant='faded' className='shadow-md'>
 						Log in
 					</Button>
 				</NavbarItem>
 				<NavbarItem className='hidden lg:flex'>
-					<Button as={Link} color='warning' href='#' variant='ghost'>
+					<Button as={Link} color='warning' href='#' variant='ghost' className='shadow-md'>
 						Sign Up
 					</Button>
 				</NavbarItem>

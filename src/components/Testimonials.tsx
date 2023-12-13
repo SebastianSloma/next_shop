@@ -84,7 +84,7 @@ const Testimonials = () => {
 	return (
 		<div id='testimonials' className='container pt-16'>
 			<h2 className='mb-10 font-medium text-8xl max-sm:text-5xl max-sm:text-center'>
-				Customer <span className='class="font-extrabold text-transparent text-8xl max-sm:text-4xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>
+				Customer <span className='class="font-extrabold text-transparent text-8xl max-sm:text-5xl bg-clip-text bg-gradient-to-r from-orange-300 to-orange-600'>
 					Reviews
 				</span>
 			</h2>

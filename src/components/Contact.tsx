@@ -46,7 +46,9 @@ const Contact = () => {
 					<div className='flex  gap-4 mt-5'>
 						<Popover placement='right-end' showArrow={true}>
 							<PopoverTrigger>
-								<Button variant='faded'>Submit</Button>
+								<Button variant='faded' className='shadow-md'>
+									Submit
+								</Button>
 							</PopoverTrigger>
 							<PopoverContent>
 								<div className='px-1 py-2'>
@@ -77,9 +79,11 @@ const Contact = () => {
 						<CardBody>
 							<div className='max-w-md'>
 								<div className='space-y-1'>
-									<h4 className='text-medium font-medium'>The Best Smart Watches</h4>
+									<h4 className='text-medium font-medium'>
+										The Best Smart Watches
+									</h4>
 									<p className='text-small text-default-400'>
-									Next level adventure.
+										Next level adventure.
 									</p>
 								</div>
 								<Divider className='my-4' />

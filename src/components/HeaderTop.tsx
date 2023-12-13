@@ -1,4 +1,4 @@
-import { Button, Select, SelectItem } from '@nextui-org/react';
+import { Button } from '@nextui-org/react';
 
 import React from 'react';
 import {
@@ -7,6 +7,8 @@ import {
 	BsInstagram,
 	BsLinkedin,
 } from 'react-icons/bs';
+
+
 
 const HeaderTop = () => {
 
@@ -53,10 +55,9 @@ const HeaderTop = () => {
 					<div className='flex gap-4'>
 						{/* select */}
 
-						
 
-						{/* <select
-							className='text-gray-500 text-[12px] w-[70px]'
+						<select
+							className='text-gray-500 text-[12px] w-[70px] p-1 rounded-md shadow-md'
 							name='currency'
 							id='currency'>
 							<option value='EUR €'>EUR €</option>
@@ -64,12 +65,12 @@ const HeaderTop = () => {
 						</select>
 
 						<select
-							className='text-gray-500 text-[12px] w-[80px]'
+							className='text-gray-500 text-[12px] w-[80px] p-1 rounded-md shadow-md'
 							name='language'
 							id='language'>
 							<option value='English'>English</option>
 							<option value='Español'>Español</option>
-						</select> */}
+						</select>
 					</div>
 				</div>
 			</div>
